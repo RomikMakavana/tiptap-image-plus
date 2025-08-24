@@ -1,0 +1,39 @@
+{
+  "name": "tiptap-image-plus",
+  "version": "1.0.1",
+  "description": "Tiptap image extension with extra options like resize, align, caption, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomikMakavana/tiptap-image-plus.git"
+  },
+  "keywords": [
+    "tiptap",
+    "image",
+    "extension",
+    "resize",
+    "alignment"
+  ],
+  "author": "Romik Makavana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomikMakavana/tiptap-image-plus/issues"
+  },
+  "homepage": "https://github.com/RomikMakavana/tiptap-image-plus#readme",
+  "devDependencies": {
+    "@tiptap/core": "^2.26.1",
+    "@tiptap/extension-image": "^2.26.1",
+    "@types/node": "^22.15.2",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@tiptap/extension-image": "^2.26.1",
+    "@tiptap/pm": "^2.26.1"
+  }
+}

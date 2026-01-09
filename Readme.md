@@ -4,8 +4,11 @@
 
 An advanced image extension for [Tiptap](https://tiptap.dev/) editor with extra options like resize, align, caption, and more. Easily add rich image editing features to your Tiptap editor.
 
-Documentation : http://romikmakavana.me/tiptap/image-plus
-Example : http://romikmakavana.me/tiptap/image-plus/example
+## Demo
+http://romikmakavana.me/tiptap/image-plus/example
+
+## Documentation
+http://romikmakavana.me/tiptap/image-plus
 
 ## Features
 
@@ -15,27 +18,40 @@ Example : http://romikmakavana.me/tiptap/image-plus/example
 - Mobile-friendly controls
 - Easy integration with Tiptap v2
 
+
 ## Installation
 
-You must install this package along with its peer dependency:
+This package supports both TipTap v2 and TipTap v3. Choose the appropriate installation command based on your TipTap version:
+
+### For TipTap v3 (Recommended)
 
 ```bash
-npm install tiptap-image-plus @tiptap/extension-image
+# Install latest version (defaults to TipTap v3)
+npm install tiptap-image-plus
+
+# Or explicitly install the tiptap-v3 tag
+npm install tiptap-image-plus@tiptap-v3
 ```
 
-or
+### For TipTap v2
 
 ```bash
-yarn add tiptap-image-plus @tiptap/extension-image
+npm install tiptap-image-plus@tiptap-v2
 ```
 
-## Peer Dependencies
+**Note:** Both versions are maintained and updated with each release. The `latest` tag (default) points to the TipTap v3 compatible version.  
+
+## Installation Peer Dependency
 
 This package requires the following peer dependencies to be installed in your project:
 
 - [@tiptap/extension-image](https://www.npmjs.com/package/@tiptap/extension-image)
 
 Make sure to install them to ensure everything works correctly.
+
+```bash
+npm install @tiptap/extension-image
+```
 
 ## Usage
 

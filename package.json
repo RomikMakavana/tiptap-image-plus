@@ -1,6 +1,6 @@
 {
   "name": "tiptap-image-plus",
-  "version": "1.0.5",
+  "version": "3.0.0",
   "description": "Tiptap image extension with extra options like resize, align, caption, and more.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,14 +26,15 @@
   },
   "homepage": "https://romikmakavana.me/tiptap/image-plus/",
   "devDependencies": {
-    "@tiptap/core": "^2.26.1",
-    "@tiptap/extension-image": "^2.26.1",
+    "@tiptap/core": "^3.15.3",
+    "@tiptap/extension-image": "^3.15.3",
     "@types/node": "^22.15.2",
     "tsc-watch": "^6.0.4",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@tiptap/extension-image": "^2.26.1",
-    "@tiptap/pm": "^2.26.1"
+    "@tiptap/core": "^2.0.0 || ^3.0.0",
+    "@tiptap/extension-image": "^2.0.0 || ^3.0.0",
+    "@tiptap/pm": "^2.0.0 || ^3.0.0"
   }
 }
